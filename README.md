@@ -62,7 +62,7 @@ If you want to delete the training data after the training use `py train.py -d` 
 
 Finally the system is ready to recognise you. Run the following command
 ```
-py recognise.py
+py recognition.py
 ```
 It will by default use your system webcam. If you want to use IP Webcam use `py recognise.py -i` flag.
 
@@ -71,7 +71,7 @@ It will by default use your system webcam. If you want to use IP Webcam use `py 
 - Name the image as test.jpg
 - Run the following command:
 ```
-py regognition_for_imgs.py
+py recognition_for_imgs.py
 ```
 
 ### Setup IP webcam <div id="ipwebcam"></div>
