@@ -111,11 +111,12 @@ env.bak/
 venv.bak/
 
 #Folders
-train/
+train/*
 
 #Files
 *.yml
 *.pkl
+test_images/*.jpg
 
 # Spyder project settings
 .spyderproject
