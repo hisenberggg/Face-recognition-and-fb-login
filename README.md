@@ -78,6 +78,7 @@ py recognition_for_imgs.py
 - You can convert your mobile camera to webcam using IP webcam. Download the mobile app from <a href="https://play.google.com/store/apps/details?id=com.pas.webcam">playstore</a> <br>
 - After installation make sure your phone and pc are connected to same wifi. <br>
 - Open the app and start the server. You'll see a local IP address link on which it is hosted. 
+
 You can type that addess in the address bar of your browser and do some additional settings like resolution, switch to front camera,etc. (optional)
 
 
