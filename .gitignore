@@ -113,6 +113,10 @@ venv.bak/
 #Folders
 train/
 
+#Files
+*.yml
+*.pkl
+
 # Spyder project settings
 .spyderproject
 .spyproject
