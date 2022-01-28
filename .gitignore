@@ -116,7 +116,7 @@ train/*
 #Files
 *.yml
 *.pkl
-test_images/*.jpg
+test_image/*.jpg
 
 # Spyder project settings
 .spyderproject
