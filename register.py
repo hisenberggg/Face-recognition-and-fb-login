@@ -14,12 +14,14 @@ if __name__=='__main__':
     name = input("Enter your name: ")
 
     d = './train/'
-    dirs = [o for o in os.listdir(d) 
+    dirs = [o.lower() for o in os.listdir(d) 
                         if os.path.isdir(os.path.join(d,o))]
-
-    while name in dirs:
+    print(dirs,name)
+    namel = name.lower()
+    while namel in dirs:
         print('Name already taken')
         name = input("Enter your name: ")
+
     os.mkdir('train/'+name)
 
     path = os.path.join(os.getcwd(),'train')
