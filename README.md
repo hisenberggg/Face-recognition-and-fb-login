@@ -7,6 +7,7 @@
   * [Test on image](#testimage)
   * [Setup Ip webcam](#ipwebcam)
   * [Facebook login](#fblogin)
+* [Acknowledgements](#ack)
 * [Author](#author)
 
 ## Overview
@@ -83,8 +84,31 @@ You can type that addess in the address bar of your browser and do some addition
 
 
 ### Facebook login <div id="fblogin"></div>
+#### Step 1: Pre-requisites and dependencies
+Install dependencies required for automation of facebook login i.e. selenium,etc. Run the following command.
+```
+pip install -r requirements_fb.txt
+```
+
+Before going ahead make sure you've trained the model on your facial data. Follow till step 3 training part of <a href="#deploy">Deploy system</a>
+
+#### Step 2: Run code
+Run the db_utils.py file which creates the <a href="https://docs.python.org/3/library/sqlite3.html">sqlite</a> database.
+```
+py db_utils.py
+```
+Now run the main automation file.
+```
+py facebook_login.py
+```
+
+### Acknowledgements <div id="ack"></div>
+- <a href="https://github.com/kelvins/lbph">LBPH classifier</a>
+- <a href="https://selenium-python.readthedocs.io/">Selenium</a>
+- <a href="https://docs.python.org/3/library/sqlite3.html">sqlite3</a>
+- <a href="https://www.hackster.io/peter-lunk/how-to-use-the-android-ip-webcam-app-with-python-opencv-45f28f">IP webcam</a>
 
 
-## Authors <div id="author"></div>
+### Authors <div id="author"></div>
 
 - [@Abhijeet Ringe](https://www.linkedin.com/in/abhijeet-ringe-3ab01a195/)
