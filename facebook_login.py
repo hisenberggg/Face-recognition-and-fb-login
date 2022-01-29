@@ -2,9 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from time import sleep
 from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.chrome.options import Options 
 from recognition import get_utils,login_webcam
-import sqlite3
 from db_utils import connect,searchName,getCred,insertData
   
 driver = webdriver.Chrome(ChromeDriverManager().install())
