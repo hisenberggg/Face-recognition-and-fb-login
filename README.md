@@ -26,7 +26,7 @@
 Download or clone this repository by using the command given below:
 
 ```
-git clone https://github.com/hisenberggg/Face-recognition-and-application
+git clone https://github.com/hisenberggg/Face-recognition-and-fb-login.git
 ```
 Or
 Clone directly using github desktop
