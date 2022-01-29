@@ -14,7 +14,7 @@ with open("face-labels.pkl", 'rb') as f:
 	labels = {v:k for k,v in og_labels.items()}
 
 
-img = cv2.imread('img_engine/test.jpeg',1)
+img = cv2.imread('test_image/test.jpg',1)
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 # cv2.putText(img, 'press q to exit', (20, 20), cv2.FONT_HERSHEY_SIMPLEX, 1,(102, 255, 102), 3, cv2.LINE_AA)
